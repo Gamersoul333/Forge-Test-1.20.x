@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "create:industrial_iron_block"
+    },
+    "@": {
+      "item": "create_things_and_misc:vibration_mechanism"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:motor_engine"
+  }
+}

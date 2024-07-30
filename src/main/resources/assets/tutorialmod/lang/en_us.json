@@ -1,15 +1,10 @@
 {
-  "item.tutorialmod.sapphire": "Sapphire",
-  "item.tutorialmod.raw_sapphire": "Raw Sapphire",
+  "item.tutorialmod.horn_fossil": "Horn Fossil",
+  "item.tutorialmod.metallic_fossil": "Metallic Fossil",
+  "item.tutorialmod.old_tire": "Old Tire",
+  "item.tutorialmod.tail_fossil": "Tail Fossil",
+  "item.tutorialmod.wing_fossil": "Wing Fossil",
+  "item.tutorialmod.motor_engine": "Motor Engine",
 
-  "block.tutorialmod.sapphire_block": "Block of Sapphire",
-  "block.tutorialmod.raw_sapphire_block": "Block of Raw Sapphire",
-
-  "block.tutorialmod.sapphire_ore": "Sapphire Ore",
-  "block.tutorialmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
-  "block.tutorialmod.end_stone_sapphire_ore": "Endstone Sapphire Ore",
-  "block.tutorialmod.nether_sapphire_ore": "Nether Sapphire Ore",
-
-
-  "creativetab.tutorial_tab": "Sapphire Tutorial Tab"
+  "creativetab.tutorial_tab": "Fakemon Tab"
 }

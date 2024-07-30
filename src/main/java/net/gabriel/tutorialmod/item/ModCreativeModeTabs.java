@@ -16,21 +16,15 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TutorialMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Moditems.SAPPHIRE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Moditems.WING_FOSSIL.get()))
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(Moditems.SAPPHIRE.get());
-                        output.accept(Moditems.RAW_SAPPHIRE.get());
-
-                        output.accept(Items.DIAMOND);
-
-                        output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
-                        output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
-
-                        output.accept(ModBlocks.SAPPHIRE_ORE.get());
-                        output.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
-                        output.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
-                        output.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
+                        output.accept(Moditems.HORN_FOSSIL.get());
+                        output.accept(Moditems.METALLIC_FOSSIL.get());
+                        output.accept(Moditems.OLD_TIRE.get());
+                        output.accept(Moditems.TAIL_FOSSIL.get());
+                        output.accept(Moditems.WING_FOSSIL.get());
+                        output.accept(Moditems.MOTOR_ENGINE.get());
                     })
                     .build());
 

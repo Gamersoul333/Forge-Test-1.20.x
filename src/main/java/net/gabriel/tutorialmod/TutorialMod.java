@@ -57,8 +57,7 @@ public class TutorialMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(Moditems.SAPPHIRE);
-            event.accept(Moditems.RAW_SAPPHIRE);
+            event.accept(Moditems.MOTOR_ENGINE);
         }
     }
 
