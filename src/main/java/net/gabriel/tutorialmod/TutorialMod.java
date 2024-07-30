@@ -1,6 +1,7 @@
 package net.gabriel.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.gabriel.tutorialmod.block.ModBlocks;
 import net.gabriel.tutorialmod.item.ModCreativeModeTabs;
 import net.gabriel.tutorialmod.item.Moditems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -34,6 +35,7 @@ public class TutorialMod
         ModCreativeModeTabs.register(modEventBus);
 
         Moditems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
