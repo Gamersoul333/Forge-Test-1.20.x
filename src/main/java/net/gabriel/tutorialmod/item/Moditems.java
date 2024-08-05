@@ -23,6 +23,8 @@ public class Moditems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MOTOR_ENGINE = ITEMS.register("motor_engine",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TUNGSTEN_BALL = ITEMS.register("tungsten_ball",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
