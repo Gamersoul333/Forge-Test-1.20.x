@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tutorialmod:tungsten_casing",
+      "item": "minecraft:iron_block",
+      "item": "minecraft:copper_block",
+      "item": "minecraft:redstone_block",
+      "item": "minecraft:gold_block",
+      "item": "minecraft:emerald_block",
+      "item": "minecraft:lapis_block",
+      "item": "minecraft:diamond_block",
+      "item": "minecraft:amethyst_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:dense_alloy_ball",
+    "count": 1
+  }
+}

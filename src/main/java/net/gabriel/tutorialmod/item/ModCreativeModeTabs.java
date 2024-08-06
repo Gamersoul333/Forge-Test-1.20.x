@@ -25,7 +25,8 @@ public class ModCreativeModeTabs {
                         output.accept(Moditems.TAIL_FOSSIL.get());
                         output.accept(Moditems.WING_FOSSIL.get());
                         output.accept(Moditems.MOTOR_ENGINE.get());
-                        output.accept(Moditems.TUNGSTEN_BALL.get());
+                        output.accept(Moditems.DENSE_ALLOY_BALL.get());
+                        output.accept(Moditems.TUNGSTEN_CASING.get());
                     })
                     .build());
 

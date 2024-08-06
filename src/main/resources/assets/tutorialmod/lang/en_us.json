@@ -5,7 +5,8 @@
   "item.tutorialmod.tail_fossil": "Tail Fossil",
   "item.tutorialmod.wing_fossil": "Wing Fossil",
   "item.tutorialmod.motor_engine": "Motor Engine",
-  "item.tutorialmod.tungsten_ball": "Tungsten Ball",
+  "item.tutorialmod.dense_alloy_ball": "Dense Alloy Ball",
+  "item.tutorialmod.tungsten_casing": "Tungsten Casing",
 
   "creativetab.tutorial_tab": "Fakemon Tab"
 }
