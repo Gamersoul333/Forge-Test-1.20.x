@@ -1,6 +1,8 @@
 package net.gabriel.tutorialmod.item;
 
 import net.gabriel.tutorialmod.TutorialMod;
+import net.gabriel.tutorialmod.item.custom.DenseAlloyBallItem;
+import net.gabriel.tutorialmod.item.custom.TungstenCasingItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -24,9 +26,9 @@ public class Moditems {
     public static final RegistryObject<Item> MOTOR_ENGINE = ITEMS.register("motor_engine",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DENSE_ALLOY_BALL = ITEMS.register("dense_alloy_ball",
-            () -> new Item(new Item.Properties()));
+            () -> new DenseAlloyBallItem(new Item.Properties()));
     public static final RegistryObject<Item> TUNGSTEN_CASING = ITEMS.register("tungsten_casing",
-            () -> new Item(new Item.Properties()));
+            () -> new TungstenCasingItem(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

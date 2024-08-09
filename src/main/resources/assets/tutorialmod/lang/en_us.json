@@ -8,5 +8,7 @@
   "item.tutorialmod.dense_alloy_ball": "Dense Alloy Ball",
   "item.tutorialmod.tungsten_casing": "Tungsten Casing",
 
+  "tooltip.tutorialmod.tungstencasing.tooltip": "Unobtainable. See Gabe to recieve.",
+
   "creativetab.tutorial_tab": "Fakemon Tab"
 }
